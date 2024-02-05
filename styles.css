@@ -81,3 +81,37 @@ ul li {
 #book-now a:hover {
     background-color: #1976d2;
 }
+
+
+#book-now a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #42a5f5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer; /* Legg til en peker for å vise at det er en klikkbar knapp */
+}
+
+#book-now a:hover {
+    background-color: #1976d2;
+}
+
+/* Legg til denne delen for å stilisere knappen for et rent utseende */
+.booking-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #42a5f5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.booking-button:hover {
+    background-color: #1976d2;
+}
